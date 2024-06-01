@@ -1,10 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name         = "KRWebServices"
     spec.version      = "1.0.0"
-    spec.summary      = "A simple network library for iOS"
-    spec.description  = <<-DESC
-                        A simple network library to handle HTTP requests, JSON responses, and error handling.
-                       DESC
+    spec.summary      = "Libray to call api and get response"
+    spec.description  = "A Networking libray for web service,we just allow to get data by passing url and you can get data as in data format or in json as well"
     spec.homepage     = "http://github.com/Kasheeram/KRWebServices"
     spec.license      = { :type => "MIT", :file => "LICENSE" }
     spec.author       = { "Kashee Ram" => "kashee.nitd2016@gmail.com" }
