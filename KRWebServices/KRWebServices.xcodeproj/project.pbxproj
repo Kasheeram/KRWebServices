@@ -10,7 +10,6 @@
 		89BA00EF2C0A2E5200280A22 /* KRWebServices.docc in Sources */ = {isa = PBXBuildFile; fileRef = 89BA00EE2C0A2E5200280A22 /* KRWebServices.docc */; };
 		89BA00F02C0A2E5200280A22 /* KRWebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BA00ED2C0A2E5200280A22 /* KRWebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89BA00F72C0A30D100280A22 /* KRWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA00F62C0A30D100280A22 /* KRWebServices.swift */; };
-		89BA00FA2C0A331800280A22 /* KRWebServices.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89BA00F92C0A331800280A22 /* KRWebServices.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,6 @@
 		89BA00ED2C0A2E5200280A22 /* KRWebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRWebServices.h; sourceTree = "<group>"; };
 		89BA00EE2C0A2E5200280A22 /* KRWebServices.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KRWebServices.docc; sourceTree = "<group>"; };
 		89BA00F62C0A30D100280A22 /* KRWebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRWebServices.swift; sourceTree = "<group>"; };
-		89BA00F92C0A331800280A22 /* KRWebServices.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KRWebServices.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,6 @@
 				89BA00ED2C0A2E5200280A22 /* KRWebServices.h */,
 				89BA00EE2C0A2E5200280A22 /* KRWebServices.docc */,
 				89BA00F62C0A30D100280A22 /* KRWebServices.swift */,
-				89BA00F92C0A331800280A22 /* KRWebServices.podspec */,
 			);
 			path = KRWebServices;
 			sourceTree = "<group>";
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BA00FA2C0A331800280A22 /* KRWebServices.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +271,11 @@
 		89BA00F42C0A2E5200280A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -305,9 +303,11 @@
 		89BA00F52C0A2E5200280A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

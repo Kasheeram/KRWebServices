@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
     spec.summary      = "Libray to call api and get response"
     spec.description  = "A Networking libray for web service,we just allow to get data by passing url and you can get data as in data format or in json as well"
     spec.homepage     = "http://github.com/Kasheeram/KRWebServices"
-    spec.license      = { :type => "MIT", :file => "LICENSE" }
+    spec.license      = "MIT"
     spec.author       = { "Kashee Ram" => "kashee.nitd2016@gmail.com" }
     spec.source       = { :git => "https://github.com/Kasheeram/KRWebServices.git", :tag => spec.version.to_s }
     spec.platform     = :ios, "13.0"
